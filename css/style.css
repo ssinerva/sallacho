@@ -452,6 +452,9 @@ body.section-show .transition-mask:before{
 	border-radius:0;
 }
 .front-person-img > img{
+object-fit: cover;
+  height: 500px;
+	width: 500px;
 	max-width:100%;
 	vertical-align:bottom;
 	-webkit-transform:rotate(-45deg) translateY(40px);
@@ -1302,7 +1305,6 @@ input, select, textarea {
 		transition: border-bottom-color 0.25s ease-in-out;
 		text-decoration: none;
 		color: #000000;
-		border-bottom: dotted 1px;
 	}
 
 		a:hover {
